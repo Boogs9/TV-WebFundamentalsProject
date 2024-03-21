@@ -1,0 +1,57 @@
+ /* Color Pallette
+    Blue #95A3BF
+    Brown #26250F
+    Beige/Cream #BFBA9F
+    Green #8CA665 
+    Soft Pink #BFADA8 
+    Soft Red #A67772 
+    background-color: #95A3BF;
+    */
+
+body{
+    background-color: #95A3BF;
+}
+h1{
+    color:  #26250F;
+    background-color: #95A3BF;
+    font-family: Arvo;
+    font-size: 70px;
+    padding:10px;
+    Border-color:  #8CA665;
+    border-width: 20px;
+    border-style: solid;
+    text-align: center;
+}
+.neighborhood{ 
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+}
+.instructions{
+    font-family: Arvo;
+    font-size: 20px;
+    text-align: center;
+   padding: 5px;
+   color:#26250F;
+   background-color: white;
+}
+.nav-links{
+    text-align: center;
+    display: flex;
+    background-color:  #8CA665;
+}
+.home{
+    
+    flex-basis: 75%;
+}
+.N1{
+    flex-basis: 75%;
+}
+.N2{
+    flex-basis: 75%;
+} 
+.buildings{ 
+    text-align: center;
+}
+
+
