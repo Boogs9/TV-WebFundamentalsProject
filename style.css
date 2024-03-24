@@ -56,7 +56,8 @@ h1{
 }
 
 .captions{
-    display:flex-column;
+    display:flex;
+    flex-direction: column;
     align-items: center;
     font-size: 28px;
 }
@@ -65,7 +66,6 @@ h1{
     color: white;
     text-align: center;
     background-color: #d9843b;
-    padding: 20px;
     margin-top: 5px;
 }
 .caption2{
