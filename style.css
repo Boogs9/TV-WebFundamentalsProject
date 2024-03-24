@@ -5,8 +5,9 @@
     Green #8CA665 
     Soft Pink #BFADA8 
     Soft Red #A67772 
+    orange #d9843b
     background-color: #95A3BF;
-    */
+*/
 
 body{
     background-color: #95A3BF;
@@ -17,7 +18,7 @@ h1{
     font-family: Arvo;
     font-size: 70px;
     padding:10px;
-    Border-color:  #8CA665;
+    border-color:  #d9843b;
     border-width: 20px;
     border-style: solid;
     text-align: center;
@@ -29,7 +30,7 @@ h1{
 }
 .instructions{
     font-family: Arvo;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
    padding: 5px;
    color:#26250F;
@@ -39,9 +40,9 @@ h1{
     text-align: center;
     display: flex;
     background-color:  #8CA665;
+    place-content: center;
 }
 .home{
-    
     flex-basis: 75%;
 }
 .N1{
@@ -51,7 +52,83 @@ h1{
     flex-basis: 75%;
 } 
 .buildings{ 
-    text-align: center;
+   text-align: center;
 }
 
-
+.captions{
+    display:flex-column;
+    align-items: center;
+    font-size: 28px;
+}
+.caption1{
+    font-family: Arvo;
+    color: white;
+    text-align: center;
+    background-color: #d9843b;
+    padding: 20px;
+    margin-top: 5px;
+}
+.caption2{
+    font-family: Arvo;
+     text-align: center;
+     background-color: #d9843b;
+     color: white;
+     padding: 20px;
+     margin-top: -30px;
+     margin-bottom: 5px;
+    }
+#footer{
+    margin: 40px;
+    padding: 20px;
+    font-family: Arvo;
+    font-size: 20px;
+    }
+/* N1 CSS */
+.containter{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.sImg{
+    width:450px;
+    border: dashed;
+    border-width: 10px;
+    border-color: #9771d8;
+}
+.safImage{ 
+ 
+}
+.safFacts{
+    font-family: Arvo;
+   background-color: #8CA665;
+    font-size: 25px;
+    padding:60px;
+    margin-right:70px;
+    border-radius: 30%;
+}
+.sF{
+    color: white;
+}
+/* N2 CSS */
+.containter1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.cImg{
+    width:700px;
+    border: dashed;
+    border-width: 10px;
+    border-color: #e2c60e;
+}
+.chrFacts{
+    font-family: Arvo;
+   background-color: #8CA665;
+    font-size: 25px;
+    padding:60px;
+    margin-right:70px;
+    border-radius: 30%;
+}
+.cF{
+    color: white;
+}
