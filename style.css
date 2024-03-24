@@ -95,7 +95,7 @@ h1{
     border-color: #9771d8;
 }
 .safImage{ 
- 
+ margin-left:auto;
 }
 .safFacts{
     font-family: Arvo;
@@ -119,6 +119,9 @@ h1{
     border: dashed;
     border-width: 10px;
     border-color: #e2c60e;
+}
+.chrImage{
+    margin-left: 100px;
 }
 .chrFacts{
     font-family: Arvo;
